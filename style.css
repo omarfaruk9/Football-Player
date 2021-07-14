@@ -343,6 +343,7 @@ width: 50%;
         width: 250px;
         height: 490px;
         margin-top: 20px;
+        margin-right: 0;
     }
     .blog h3{
         font-size: 20px;
