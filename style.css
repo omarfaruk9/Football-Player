@@ -7,6 +7,7 @@
 header{
     background-color: #2D25A0;
     margin-bottom: 70px;
+    
 }
 .banner{
    display: grid;
@@ -63,7 +64,7 @@ position: relative;
     width: 50%;
 }
 .right-side img{
-    width: 100%;
+    width: 500px;
     margin-left: 100px;
     margin-top: 90px;
 }
@@ -267,7 +268,7 @@ width: 50%;
     align-items: center;
 }
 .logo img{
-    width: 484px;
+    width: 480px;
     height: 100px;
 }
 .social-link .fab{
@@ -287,7 +288,7 @@ width: 50%;
 /* -------------------------------
     Responsive for Mobile
  -----------------------------*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 390px) {
     /* ---------commont part start-----------  */
 
     .banner, .blogs, .copa-america-blog{
@@ -295,6 +296,7 @@ width: 50%;
     }
     /* ---------commont part end-----------  */
         /* Banner part start */
+    
     .left-side h1{
         margin-left: 10px;
         padding: 5px;
@@ -304,6 +306,9 @@ width: 50%;
     .btn{
         font-size: 5px;
         margin: 0 5px;
+    }
+    .right-side img{
+        width: 300px;
     }
 
     .animation{
@@ -335,15 +340,14 @@ width: 50%;
 
     /* ------blogs part start----- */
 
-    .blogs{
-        margin:auto;
-    }
+.blogs{
+    margin: auto;
+}
     
     .blog{
-        width: 250px;
-        height: 490px;
+        width: 330px;
+        height: 474px;
         margin-top: 20px;
-        margin-right: 0;
     }
     .blog h3{
         font-size: 20px;
@@ -363,7 +367,7 @@ width: 50%;
     /* copa america blog */
 
     .copa-america-blog{
-        width: 300px;
+        width: 350px;
         margin: 50px 0;
     }
     .copa-blog h2{
@@ -380,17 +384,21 @@ width: 50%;
         /* club coach information */
 
     .club-blog{
-        display: grid;
+        display:grid;
         grid-template-columns: 1fr;
         border: none;
-        margin:50px 10px;
     }
-    .right-part img{
-        margin-left: 0;
-        width: 150px;
+    .right-part{
+        width: 380px;
+    }
+    .club{
+        width: 250px;
     }
     .left-part{
-        width: 150px;
+        width: 350px;
+    }
+    .left-part h2{
+        font-size: 24px;
     }
     /* club coach information */
 
@@ -399,19 +407,17 @@ width: 50%;
     /* footer-part-with-login-area start  */
 
     /* login Form start */
-    .input-area input{
-        color:;
-        width: 70px;
-        border: 2px solid burlywood;
-        border-radius: 5px;
-        margin-left: 5px;
-        padding: 5px 25px;
+    .login-area{
+        width: 350px;
     }
     /* login Form end */
 
     /* foooooter part start */
+    .footer-text{
+        width: 350px;
+    }
     .logo img{
-        width: 150px;
+        width: 100px;
     }
     /* foooooter part start */
 
